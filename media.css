@@ -1,0 +1,9 @@
+@media(max-width:600px){
+  .grid-container{
+    width:300px;
+    display: grid;
+    grid-template-columns:1fr;
+    margin:2rem auto;
+    line-height: 2;
+  }
+}

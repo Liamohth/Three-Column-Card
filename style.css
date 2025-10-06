@@ -1,0 +1,59 @@
+html{
+  background-color:hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+.grid-container{
+  width:800px;
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  margin:2rem auto;
+  line-height: 2;
+}
+h2{
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  color:hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+p{
+  color:hsla(0, 0%, 100%, 0.75);
+}
+.grid-text-box{
+  padding:2rem;
+}
+.grid-text-box >p{
+
+}
+.Sedans{
+  background-color: hsl(31, 77%, 52%);
+}
+.suv{
+  background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+}
+.learn-more-button{
+  border-radius: 30px;
+  border:1px solid hsl(0, 0%, 95%);
+  background-color:transparent;
+  color:hsl(0, 0%, 95%);
+  padding:5px 10px;
+  margin-top:20px;
+}
+.learn-more-button:active{
+  background-color:hsl(0, 0%, 95%);
+}
+.Sedans .learn-more-button:active{
+  color: hsl(31, 77%, 52%);
+}
+.suv .learn-more-button:active{
+  color: hsl(184, 100%, 22%);
+}
+.luxury .learn-more-button:active{
+  color: hsl(179, 100%, 13%);
+}
